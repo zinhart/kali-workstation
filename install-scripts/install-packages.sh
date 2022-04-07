@@ -1,0 +1,10 @@
+export DEBIAN_FRONTEND=noninteractive;
+sh install-cross-compilation-tools.sh;
+sh install-port-redirection-tunneling-tools.sh;
+sh install-file-transfer-tools.sh;
+sh configure-pureftpd.sh;
+sh install-shell-and-shellcode-tools.sh;
+sh install-enumeration-tools.sh;
+sh install-cracking-tools.sh;
+sh install-misc.sh;
+sh install-exploit-frameworks-vulnerability-scanners.sh;
