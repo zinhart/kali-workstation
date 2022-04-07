@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo 'CONFIGURING PURE-FTPD USER'
 FTPUSER="trivalante"
 #(1) Fetch pure-ftpd from aptitude.

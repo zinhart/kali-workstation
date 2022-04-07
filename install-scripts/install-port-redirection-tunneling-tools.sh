@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # port redirection/tunneling
 echo 'INSTALLING PORT REDIRECTION AND TUNNELING TOOLS'
 sudo apt install -y httptunnel rinetd chisel proxychains

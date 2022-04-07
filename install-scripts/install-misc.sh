@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 echo 'INSTALLING MISC PACKAGES'
-sudo apt install -y docker.io sshpass hurl xclip wkhtmltopdf kerberoast windows-privesc-check
+sudo apt install -y sshpass hurl xclip wkhtmltopdf kerberoast windows-privesc-check exploitdb-papers
