@@ -8,3 +8,4 @@ bash install-enumeration-tools.sh;
 bash install-cracking-tools.sh;
 bash install-misc.sh;
 bash install-exploit-frameworks-vulnerability-scanners.sh;
+bash configure-tmux.sh;
