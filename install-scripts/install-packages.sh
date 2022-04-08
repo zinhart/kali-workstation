@@ -5,6 +5,7 @@ bash install-file-transfer-tools.sh;
 bash configure-pureftpd.sh;
 bash install-shell-and-shellcode-tools.sh;
 bash install-enumeration-tools.sh;
+bash install-docker-and-docker-depedant-projects.sh
 bash install-cracking-tools.sh;
 bash install-misc.sh;
 bash install-exploit-frameworks-vulnerability-scanners.sh;
