@@ -18,5 +18,10 @@ sudo curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/wi
 # My active directory scripts created during pwk.
 # Repo needs to be public or we need to pass a personal access token 
 sudo git clone https://github.com/zinhart/domain-enumeration.git /home/vagrant/ftphome/domain-enumeration
-
-
+# kerberoasting script
+sudo curl -L https://raw.githubusercontent.com/EmpireProject/Empire/master/data/module_source/credentials/Invoke-Kerberoast.ps1 -o /home/vagrant/ftphome/invoke-kerberoast.ps1
+# sysinternals
+sudo curl -L https://download.sysinternals.com/files/SysinternalsSuite.zip -o /home/vagrant/ftphome/sysinternals.zip
+sudo unzip /home/vagrant/ftphome/sysinternals.zip -d /home/vagrant/ftphome/sysinternals
+# mimikatz in memory
+sudo curl -L https://raw.githubusercontent.com/samratashok/nishang/master/Gather/Invoke-Mimikatz.ps1 -o /home/vagrant/ftphome/invoke-mimikatz.ps1
