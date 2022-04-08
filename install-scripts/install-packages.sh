@@ -3,7 +3,7 @@ bash install-cross-compilation-tools.sh;
 bash install-port-redirection-tunneling-tools.sh;
 bash install-file-transfer-tools.sh;
 bash configure-pureftpd.sh;
-bash install-shell-and-bashellcode-tools.sh;
+bash install-shell-and-shellcode-tools.sh;
 bash install-enumeration-tools.sh;
 bash install-cracking-tools.sh;
 bash install-misc.sh;
