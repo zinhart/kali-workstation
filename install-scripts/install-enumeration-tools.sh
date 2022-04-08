@@ -23,5 +23,6 @@ sudo curl -L https://raw.githubusercontent.com/EmpireProject/Empire/master/data/
 # sysinternals
 sudo curl -L https://download.sysinternals.com/files/SysinternalsSuite.zip -o /home/vagrant/ftphome/sysinternals.zip
 sudo unzip /home/vagrant/ftphome/sysinternals.zip -d /home/vagrant/ftphome/sysinternals
+sudo rm /home/vagrant/ftphome/sysinternals.zip
 # mimikatz in memory
 sudo curl -L https://raw.githubusercontent.com/samratashok/nishang/master/Gather/Invoke-Mimikatz.ps1 -o /home/vagrant/ftphome/invoke-mimikatz.ps1
