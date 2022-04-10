@@ -10,3 +10,5 @@ bash install-cracking-tools.sh;
 bash install-misc.sh;
 bash install-exploit-frameworks-vulnerability-scanners.sh;
 bash configure-tmux.sh;
+# to do
+# need set set wes for windows kernel exploits and add it to the path variable.
