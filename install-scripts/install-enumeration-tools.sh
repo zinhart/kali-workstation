@@ -30,3 +30,5 @@ sudo curl -L https://raw.githubusercontent.com/samratashok/nishang/master/Gather
 sudo pip install wesng
 # update wes db
 /home/vagrant/.local/bin/wes --update
+# another wordlist that has many fuzzing parameters. The command injection wordlist came in handy on pwk dev net adam.
+sudo git clone https://github.com/carlospolop/Auto_Wordlists.git /opt/auto-wordlists
