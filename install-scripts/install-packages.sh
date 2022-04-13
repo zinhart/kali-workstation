@@ -13,7 +13,7 @@ bash configure-tmux.sh;
 bash install-path-modifications.sh;
 # to do
 # DONE need set set wesng(https://github.com/bitsadmin/wesng.git) for windows kernel exploits and add it to the path variable.
-# add wwwolf php webshell to tools https://github.com/WhiteWinterWolf/wwwolf-php-webshell
+# DONE add wwwolf php webshell to tools https://github.com/WhiteWinterWolf/wwwolf-php-webshell
 # Seclists wordlist
 # command injection wordlists
 # [hacktricks one](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/command_injection.txt)
