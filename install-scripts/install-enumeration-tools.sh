@@ -26,3 +26,7 @@ sudo unzip /home/vagrant/ftphome/sysinternals.zip -d /home/vagrant/ftphome/sysin
 sudo rm /home/vagrant/ftphome/sysinternals.zip
 # mimikatz in memory
 sudo curl -L https://raw.githubusercontent.com/samratashok/nishang/master/Gather/Invoke-Mimikatz.ps1 -o /home/vagrant/ftphome/invoke-mimikatz.ps1
+#windows exploit suggester next generation
+sudo pip install wesng
+# update wes db
+/home/vagrant/.local/bin/wes --update

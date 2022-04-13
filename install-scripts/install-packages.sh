@@ -10,6 +10,12 @@ bash install-cracking-tools.sh;
 bash install-misc.sh;
 bash install-exploit-frameworks-vulnerability-scanners.sh;
 bash configure-tmux.sh;
+bash install-path-modifications.sh;
 # to do
-# need set set wes for windows kernel exploits and add it to the path variable.
+# DONE need set set wesng(https://github.com/bitsadmin/wesng.git) for windows kernel exploits and add it to the path variable.
 # add wwwolf php webshell to tools https://github.com/WhiteWinterWolf/wwwolf-php-webshell
+# Seclists wordlist
+# command injection wordlists
+# [hacktricks one](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/command_injection.txt)
+# [hackers club](https://hackersonlineclub.com/command-injection-cheatsheet/)
+# [payloadbox](https://github.com/payloadbox/command-injection-payload-list)
