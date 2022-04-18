@@ -14,6 +14,7 @@ bash install-path-modifications.sh;
 # to do
 # DONE need set set wesng(https://github.com/bitsadmin/wesng.git) for windows kernel exploits and add it to the path variable.
 # DONE add wwwolf php webshell to tools https://github.com/WhiteWinterWolf/wwwolf-php-webshell
+# Add this jsp webshell, very nice! https://github.com/tennc/webshell/blob/master/jsp/shell.jsp
 # Done (install be default)Seclists wordlist
 # command injection wordlists
 # DONE [hacktricks one](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/command_injection.txt)
