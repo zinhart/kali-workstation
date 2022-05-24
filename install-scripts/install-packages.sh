@@ -17,4 +17,4 @@ bash install-path-modifications.sh;
 # command injection wordlists
 # [hackers club](https://hackersonlineclub.com/command-injection-cheatsheet/)
 # [payloadbox](https://github.com/payloadbox/command-injection-payload-list)
-# 
+# verify wine install
