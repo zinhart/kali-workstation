@@ -19,3 +19,4 @@ bash install-path-modifications.sh;
 # [payloadbox](https://github.com/payloadbox/command-injection-payload-list)
 # verify wine install
 # add windows kernel exploits https://github.com/zinhart/windows-kernel-exploits.git
+# add strongswan vpn client
