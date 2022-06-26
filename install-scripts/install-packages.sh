@@ -20,3 +20,8 @@ bash install-path-modifications.sh;
 # verify wine install
 # add windows kernel exploits https://github.com/zinhart/windows-kernel-exploits.git
 # add strongswan vpn client
+# add bloodhound(from repo NOT kali package)
+# add: snmp scripts sudo apt install snmp-mibs-downloader
+# also we want the mibs strings english not the numbers so we need to have a line like
+# sudo mv /etc/snmp/snmp.conf /etc/snmp/snmp.conf.bak; sudo echo '#mibs :' > /etc/snmp/snmp.conf
+# add evolution mail client
