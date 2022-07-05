@@ -26,3 +26,5 @@ bash install-path-modifications.sh;
 # sudo cp /etc/snmp/snmp.conf /etc/snmp/snmp.conf.bak;
 # sudo sed -i 's/mibs :/#mibs:/' /etc/snmp/snmp.conf
 # add evolution mail client
+# Offsec Profesional report templates: apt install texlive-latex-recommended texlive-fonts-extra texlive-latex-extra pandoc p7zip-full
+# Add my fork of noraj
