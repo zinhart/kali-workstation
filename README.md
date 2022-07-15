@@ -12,7 +12,14 @@ It comes with:
 - ysoserial configed through docker
 - For the full list read the /install-scripts
 
+## Prerequisites
+- chocolatey 
+- vmware workstation
+```
+choco install vagrant vagrant-vmware-utility -y
+```
 ## Usage
+This project uses the vmware provider
 Go to project root and
 ``` powershell
 vagrant up
