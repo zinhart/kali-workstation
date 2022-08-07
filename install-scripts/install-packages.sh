@@ -28,3 +28,4 @@ bash install-path-modifications.sh;
 # add evolution mail client
 # Offsec Profesional report templates: apt install texlive-latex-recommended texlive-fonts-extra texlive-latex-extra pandoc p7zip-full
 # Add my fork of noraj
+# compgen - list every possible command that can be auto completed
