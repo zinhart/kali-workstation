@@ -32,3 +32,9 @@ sudo pip install wesng
 /home/vagrant/.local/bin/wes --update
 # another wordlist that has many fuzzing parameters. The command injection wordlist came in handy on pwk dev net adam.
 sudo git clone https://github.com/carlospolop/Auto_Wordlists.git /opt/auto-wordlists
+# install and configure snmp
+sudo apt install snmp-mibs-downloader
+sudo cp /etc/snmp/snmp.conf /etc/snmp/snmp.conf.bak;
+sudo sed -i 's/mibs :/#mibs:/' /etc/snmp/snmp.conf
+# compgen - lists all available commands
+sudo apt install compgen

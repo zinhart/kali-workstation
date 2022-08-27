@@ -1,3 +1,3 @@
 #!/bin/bash
 echo 'INSTALLING MISC PACKAGES'
-sudo apt install -y sshpass hurl xclip wkhtmltopdf kerberoast windows-privesc-check exploitdb-papers
+sudo apt install -y sshpass hurl xclip wkhtmltopdf kerberoast windows-privesc-check exploitdb-papers strongswan
