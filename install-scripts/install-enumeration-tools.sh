@@ -32,5 +32,8 @@ sudo git clone https://github.com/carlospolop/Auto_Wordlists.git /opt/auto-wordl
 sudo apt -y install snmp-mibs-downloader
 sudo cp /etc/snmp/snmp.conf /etc/snmp/snmp.conf.bak;
 sudo sed -i 's/mibs :/#mibs:/' /etc/snmp/snmp.conf
+# pspy
+sudo curl -L https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy32 -o /home/vagrant/ftphome/pspy32
+sudo curl -L https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64 -o /home/vagrant/ftphome/pspy64
 # compgen - lists all available commands
-sudo apt install compgen
+#sudo apt install compgen
