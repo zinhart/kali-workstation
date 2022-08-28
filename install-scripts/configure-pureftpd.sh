@@ -6,7 +6,7 @@ FTPUSER="trivalante"
 #(2) Create a group for Pure-FTPD.
 sudo groupadd ftpgroup
 #(3) Add a user to the group (revoke the home directory and deny access to shell login).
-sudo useradd -g ftpgroup -d /dev/null -s /etc ftpuser
+sudo useradd -g ftpgroup -d /dev/null -s /bin/false ftpuser
 #(4) Create a directory for your ftp-files (you can also specify a specific user e.g.: /root/ftphome/bob).
 mkdir -p /home/vagrant/ftphome
 #(5) Create a ftp-user, in our example $FTPUSER (again you can set "-d /home/vagrant/ftphome/$FTPUSER" if you wish).
@@ -20,5 +20,8 @@ sudo pure-pw mkdb
 sudo ln -s /etc/pure-ftpd/conf/PureDB /etc/pure-ftpd/auth/PureDB
 #(11) The specified ftp directory (and all it's sub-direcotries) needs to be owned by "ftpuser".
 sudo chown -R ftpuser:ftpgroup /home/vagrant/ftphome
-#(12) Finally we restart Pure-FTPD. You should now be able to log in with your created user account.
+#(12) disable pam and unix auth (or whats the point in having virtual users)
+sudo rm /etc/pure-ftpd/auth/70pam
+sudo rm /etc/pure-ftpd/auth/65unix
+#(13) Finally we restart Pure-FTPD. You should now be able to log in with your created user account.
 sudo systemctl restart pure-ftpd
