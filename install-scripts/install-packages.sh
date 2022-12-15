@@ -17,3 +17,6 @@ bash install-and-configure-proxy-servers.sh;
 bash configure-login-shell.sh;
 # to do
 # add bloodhound(from repo NOT kali package) need to find a way to auto config neo4j
+# install jd-gui
+# install jq # can basically turn json to list
+# install c# cross compiling tools
