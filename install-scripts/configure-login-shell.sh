@@ -7,4 +7,6 @@ echo 'Set-Alias l Get-ChildItem -option AllScope' >> /home/vagrant/.config/power
 # to do copy Sampleprofile in psreadline and of course study its capabilities
 # to do install Posh-SSH
 # to do install PoshRSJob
+# to do install nuget
+# Register-PackageSource -Name nuget.org -ProviderName NuGet -Location "https://api.nuget.org/v3/index.json" -Trusted  
 sudo chsh -s vagrant /usr/bin/pwsh;
