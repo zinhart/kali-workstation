@@ -20,7 +20,5 @@ bash configure-login-shell.sh;
 # install jd-gui
 # install jq # can basically turn json to list
 # install c# cross compiling tools
-# install docker-compose
 # probably want to install selenium via python and possibly .net selenium package: https://github.com/adamdriscoll/selenium-powershell.git
 # Install PowershellRedTeam Tools: https://github.com/zinhart/PowerShell-Red-Team
-# Install Pwsh-WebSocketClient (by yours truly)

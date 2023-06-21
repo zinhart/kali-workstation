@@ -25,3 +25,5 @@ sudo rm /etc/pure-ftpd/auth/70pam
 sudo rm /etc/pure-ftpd/auth/65unix
 #(13) Finally we restart Pure-FTPD. You should now be able to log in with your created user account.
 sudo systemctl restart pure-ftpd
+# have this run as a service enabled on reboot
+sudo systemctl enable pure-ftpd

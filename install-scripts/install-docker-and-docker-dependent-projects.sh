@@ -1,6 +1,6 @@
 #!/bin/bash
 echo 'INSTALLING DOCKER AND DOCKER DEPENDANT PROJECTS'
-sudo apt install -y docker.io
+sudo apt install -y docker.io docker-compose
 # Java RMI Injections
 sudo git clone https://github.com/zinhart/ysoserial.git /opt/ysoserial
  # wrote this in a way that is extensible, add all other projects here so their images can be auto built.

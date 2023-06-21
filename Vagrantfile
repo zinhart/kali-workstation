@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "kalilinux/rolling"
+  config.vm.box = "kali-2023.2"
   config.vm.provider "vmware_desktop" do |vcfg|
     vcfg.memory = "8192" # 8GB
     vcfg.vmx["cpuid.coresPerSocket"]  = "2"
@@ -11,4 +11,6 @@ Vagrant.configure("2") do |config|
   SCRIPT
   config.vm.provision "file", source: "install-scripts", destination: "/home/vagrant/install-scripts"
   config.vm.provision "shell", inline: $script, privileged: false
+  #config.vm.disk :disk, size: "100GB", primary: true
+  config.vm.synced_folder "C:\\Users\\zinhart\\Desktop\\awae", "/home/vagrant/Desktop/awae"
 end
