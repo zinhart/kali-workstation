@@ -14,6 +14,7 @@ bash install-misc.sh;
 bash install-exploit-frameworks-vulnerability-scanners.sh;
 bash configure-tmux.sh;
 bash install-and-configure-proxy-servers.sh;
+bash install-wifi-tools.sh;
 bash configure-login-shell.sh;
 # to do
 # add bloodhound(from repo NOT kali package) need to find a way to auto config neo4j
