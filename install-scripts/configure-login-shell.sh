@@ -3,7 +3,7 @@ echo 'Import-Module PSReadline' >> /home/vagrant/.config/powershell/profile.ps1;
 pwsh -command 'Import-Module PowerShellGet; Install-Module Get-ChildItemColor -Force;';
 echo '# Shows navigable menu of all options when hitting Tab' >> /home/vagrant/.config/powershell/profile.ps1;
 echo 'Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete' >> /home/vagrant/.config/powershell/profile.ps1;
-echo '# Autocompletion for arrow keys' >> >> /home/vagrant/.config/powershell/profile.ps1;
+echo '# Autocompletion for arrow keys' >> /home/vagrant/.config/powershell/profile.ps1;
 echo 'Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward' >> /home/vagrant/.config/powershell/profile.ps1;
 echo 'Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward' >> /home/vagrant/.config/powershell/profile.ps1;
 echo 'Set-Alias l Get-ChildItem -option AllScope' >> /home/vagrant/.config/powershell/profile.ps1;

@@ -1,7 +1,7 @@
 export DEBIAN_FRONTEND=noninteractive;
 sudo apt update;
 bash configure-shell-envs.sh;
-bash install-cross-compilation-tools.sh;
+#bash install-cross-compilation-tools.sh;
 bash configure-python-venv.sh;
 bash install-port-redirection-tunneling-tools.sh;
 bash install-file-transfer-tools.sh;
