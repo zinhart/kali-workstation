@@ -1,4 +1,5 @@
 export DEBIAN_FRONTEND=noninteractive;
+export NEEDRESTART_MODE=a;
 sudo apt update;
 bash configure-shell-envs.sh;
 bash install-cross-compilation-tools.sh;

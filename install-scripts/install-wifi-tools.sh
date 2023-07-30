@@ -34,3 +34,5 @@ sudo apt install nftables
 sudo apt install nftlb
 # rogue ap's
 sudo apt install hostapd-mana
+# freeradius
+sudo apt -y install freeradius
