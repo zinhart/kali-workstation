@@ -12,4 +12,4 @@ pwsh -C 'Register-PackageSource -Name nuget.org -ProviderName NuGet -Location "h
 pwsh -c 'Install-Module -Name Posh-SSH -force'
 pwsh -c 'Install-Module -Name PwshWebSocketClient -force'
 # to do install PoshRSJob
-sudo chsh -s  vagrant /usr/bin/pwsh;
+sudo chsh -s /usr/bin/pwsh vagrant;
